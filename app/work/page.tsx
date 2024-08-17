@@ -48,7 +48,8 @@ export default function Work() {
     { label: "NextJs" },
     { label: "NodeJs" },
     { label: "Python" },
-    { label: "Mongodb/Postgres/Firebase/Supabase" },
+    { label: "C/C++" },
+    { label: "Mongodb / Postgres / Supabase" },
   ];
   return (
     <div className="mb-6 mt-4 flex flex-col gap-y-4">
@@ -82,7 +83,10 @@ export default function Work() {
         <span className="text-sm text-zinc-600 font-semibold">Key skills</span>
         <div className="grid grid-cols-2">
           {skills.map((skill) => (
-            <p key={skill.label} className="text-sm text-zinc-700 leading-6">
+            <p
+              key={skill.label}
+              className="text-sm text-zinc-700 leading-6 whitespace-pre-wrap"
+            >
               {skill.label}
             </p>
           ))}
