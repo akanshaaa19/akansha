@@ -42,9 +42,18 @@ export default function Work() {
       pointers: [],
     },
   ];
+  const skills = [
+    { label: "Typescript/Javascript" },
+    { label: "ReactJs" },
+    { label: "NextJs" },
+    { label: "NodeJs" },
+    { label: "Python" },
+    { label: "Mongodb/Postgres/Firebase/Supabase" },
+  ];
   return (
-    <div className="mb-6 mt-4">
-      <div className="flex flex-col gap-y-4">
+    <div className="mb-6 mt-4 flex flex-col gap-y-4">
+      <div className="flex flex-col gap-y-3">
+        <span className="text-sm text-zinc-600 font-semibold">Experience</span>
         {works.map((work, _) => (
           <div key={_} className="pb-2 w-full flex flex-col gap-y-4">
             <div className="flex w-full justify-between items-end">
@@ -67,6 +76,17 @@ export default function Work() {
             </div>
           </div>
         ))}
+      </div>
+      <hr />
+      <div className="flex flex-col gap-y-3">
+        <span className="text-sm text-zinc-600 font-semibold">Key skills</span>
+        <div className="grid grid-cols-2">
+          {skills.map((skill) => (
+            <p key={skill.label} className="text-sm text-zinc-700 leading-6">
+              {skill.label}
+            </p>
+          ))}
+        </div>
       </div>
     </div>
   );

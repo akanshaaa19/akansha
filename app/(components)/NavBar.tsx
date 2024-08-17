@@ -20,8 +20,8 @@ export const NavBar = () => {
 
   return (
     <div className="mb-">
-      <div className="flex justify-between items-center gap-x-6">
-        <div className="w-4/5 flex flex-col gap-y-3">
+      <div className="flex justify-between items-center sm:gap-x-6">
+        <div className="flex flex-col gap-y-3">
           <h2 className="text-2xl font-semibold">Akansha</h2>
           <div className="flex gap-x-4 text-zinc-700">
             <Link href={"https://github.com/akanshaaa19"} target="_blank">
@@ -42,7 +42,7 @@ export const NavBar = () => {
           <Image
             src={akansha}
             alt="me"
-            className="h-full w-full object-contain rounded-full grayscale"
+            className="h-full w-full object-cover rounded-full grayscale"
           />
         </div>
       </div>
