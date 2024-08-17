@@ -15,9 +15,6 @@ export default function Home() {
       </div>
 
       <div>
-        <p className="text-sm text-zinc-600 mb-6 mt-4 uppercase font-semibold">
-          Work
-        </p>
         <Work />
         <hr className="mt-4" />
       </div>
