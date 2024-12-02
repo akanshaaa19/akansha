@@ -4,6 +4,26 @@ import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 export default function Projects() {
   const projects = [
     {
+      title: "Urban Abode",
+      stack: "React | Tailwind",
+      description: "Developing a dynamic websites for a realtor.",
+      link: "https://urban-abode-nu.vercel.app",
+    },
+    {
+      title: "Hungary Fork",
+      stack: "Next | Tailwind | Supabase",
+      description:
+        "Blog application for food lovers. With custom cms using supabase",
+      link: "https://hungary-fork-test.vercel.app/",
+    },
+    {
+      title: "Social DNA",
+      stack: "Next | Tailwind",
+      description:
+        "Dynamic website for a social media company. Generate follow maps and user data.",
+      link: "https://socialdna-test.vercel.app/",
+    },
+    {
       title: "Resume Generator",
       stack: "React | Firebase | Tailwind",
       description:

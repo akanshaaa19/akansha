@@ -15,6 +15,12 @@ export default function Connect() {
         "Highlighting Glific's feature for automating WhatsApp group management, enhancing NGO outreach and communication efficiency.",
       link: "https://glific.org/enhancing-ngo-outreach-simplifying-whatsapp-group-management-with-glific/",
     },
+    {
+      title: "Simplifying WhatsApp Group Management",
+      description:
+        "Highlighting Glific's feature for automating WhatsApp group management, enhancing NGO outreach and communication efficiency.",
+      link: "https://glific.org/empowering-ngos-through-collaboration-insights-from-the-tech4impact-chatbot-accelerator/",
+    },
   ];
   return (
     <div className="mb-6 mt-4">
