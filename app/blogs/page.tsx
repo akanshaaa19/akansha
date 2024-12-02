@@ -16,12 +16,6 @@ export default function Connect() {
       link: "https://glific.org/enhancing-ngo-outreach-simplifying-whatsapp-group-management-with-glific/",
     },
     {
-      title: "Simplifying WhatsApp Group Management",
-      description:
-        "Highlighting Glific's feature for automating WhatsApp group management, enhancing NGO outreach and communication efficiency.",
-      link: "https://glific.org/empowering-ngos-through-collaboration-insights-from-the-tech4impact-chatbot-accelerator/",
-    },
-    {
       title: "Empowering NGOs Through Collaboration",
       description: "Insights from the Tech4Impact Chatbot Accelerator",
       link: "https://glific.org/empowering-ngos-through-collaboration-insights-from-the-tech4impact-chatbot-accelerator/",
